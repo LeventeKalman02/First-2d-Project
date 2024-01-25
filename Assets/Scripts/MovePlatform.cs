@@ -17,7 +17,6 @@ public class MovePlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = 
-        new Vector2(startPosition.x + Mathf.Sin(Time.time * speed), transform.position.y);
+        transform.position = new Vector2(startPosition.x + Mathf.Sin(Time.time * speed), transform.position.y);
     }
 }
